@@ -34,9 +34,8 @@ DEBUG = False
 
 
 # Add '3.26.161.189' to ALLOWED_HOSTS without the port
-ALLOWED_HOSTS = ["3.26.161.189"]
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-USE_X_FORWARDED_HOST = True
+ALLOWED_HOSTS = ['3.26.161.189']
+print("******************************", ALLOWED_HOSTS)
 
 
 REST_FRAMEWORK = {
