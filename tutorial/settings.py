@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-)j1@7^+(yb2pz8fjtq0f2o3%445#)+_$((w=hjt-@+srev39*9
 DEBUG = False
 
 # ALLOWED_HOSTS = []
-
 ALLOWED_HOSTS = ['3.26.161.189']
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+# ALLOWED_HOSTS = ['3.26.161.189']
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 REST_FRAMEWORK = {
