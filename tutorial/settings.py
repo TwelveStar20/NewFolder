@@ -34,7 +34,7 @@ DEBUG = False
 
 
 # Add '3.26.161.189' to ALLOWED_HOSTS without the port
-ALLOWED_HOSTS = ['3.24.212.46']
+ALLOWED_HOSTS = ['3.25.218.29']
 print("******************************", ALLOWED_HOSTS)
 
 
