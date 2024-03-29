@@ -27,7 +27,9 @@ DEBUG = False
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ['3.26.161.189', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['3.26.161.189']
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
